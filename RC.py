@@ -8,7 +8,7 @@ with schemdraw.Drawing() as d:
     # Add the tag for the output pin
     d += elm.Tag().label('Out')
 
-    # Add a wire to the left net
+    # Add a carlos to the left net
     d += elm.Line().left()
 
     # Save the position of the net
